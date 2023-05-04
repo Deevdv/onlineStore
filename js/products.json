@@ -13,7 +13,7 @@
         "fields": {
           "title": "king panel bed",
           "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/bedroomItems/product-2.jpg" } } }
         }
       },
       {
@@ -21,7 +21,7 @@
         "fields": {
           "title": "single panel bed",
           "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/bedroomItems/product-3.jpg" } } }
         }
       },
       {
@@ -29,7 +29,7 @@
         "fields": {
           "title": "twin panel bed",
           "price": 22.99,
-          "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/bedroomItems/product-4.jpg" } } }
         }
       },
       {
@@ -37,7 +37,7 @@
         "fields": {
           "title": "fridge",
           "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/bedroomItems/product-5.jpg" } } }
         }
       },
       {
@@ -45,7 +45,7 @@
         "fields": {
           "title": "dresser",
           "price": 32.99,
-          "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/bedroomItems/product-6.jpg" } } }
         }
       },
       {
@@ -53,7 +53,7 @@
         "fields": {
           "title": "couch",
           "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
         }
       },
       {
@@ -61,7 +61,231 @@
         "fields": {
           "title": "table",
           "price": 33.99,
-          "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "10" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "11" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "12" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "13" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "14" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "15" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "16" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "17" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "18" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "19" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "20" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "21" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "22" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "23" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "24" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "25" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "26" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "27" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "28" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "29" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "30" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "31" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "32" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "33" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "34" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "35" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "36" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
         }
       }
     ]

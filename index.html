@@ -14,9 +14,16 @@
     <!--navbar-->
     <nav class="navbar">
         <div class="navbar-center">
-            <span class="nav-icon">
-                <i class="fas fa-bars"></i>
-            </span>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/gallery.html">Gallery</a>
+                <a href="pages/contact.html">Contact</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+              </div>
             <img class="logo" src="images/diningItems/logo.png" alt="Logo Image">
             <div class="cart-btn">
                 <span class="nav-icon">
@@ -42,17 +49,7 @@
             <h2>Our Products</h2>
         </div>
         <div class="products-center">
-            <article class="product">
-                <div class="img-container">
-                    <img src="images/bedroomItems/product-1.jpg" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="1">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to cart
-                    </button>
-                </div>
-                <h3>Queen Bed</h3>
-                <h4>R2000.00</h4>
-            </article>
+          
         </div>
     </section>
     <!--cart-->
