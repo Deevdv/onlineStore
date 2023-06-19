@@ -209,7 +209,7 @@ class Storage {
         localStorage.setItem("products", JSON.stringify(products))
     }
     static getProduct(id) {
-        let products = JSON.parse(localStorage.getItem("products"));
+      let products = JSON.parse(localStorage.getItem("products"));
         return products.find(product => product.id === id);
     }
     static saveCart(cart) {

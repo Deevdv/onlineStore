@@ -12,6 +12,8 @@
     font-size: large;
     color: #f7f7f7;
     background-color: #484848;
+    border: none;
+    cursor: pointer;
 }
 
 .contact {
