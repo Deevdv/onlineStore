@@ -42,6 +42,10 @@ h2 {
     max-width: 100%;
 }
 
+.slide-styles {
+    width: 100%;
+}
+
 /* The Modal (background) */
 .modal {
     display: none;
