@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.button {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    font-size: large;
+    color: #f7f7f7;
+    background-color: #484848;
+}
+
 .contact {
     align-items: center;
     margin-left: 10px;
@@ -20,6 +28,7 @@ body {
     color: antiquewhite;
     background: rgb(105, 104, 104);
 }
+
 .contact-container {
     max-width: 960px;
     margin: auto;
@@ -36,16 +45,19 @@ body {
     padding: 20px;
 }
 
-.form-container h3{
+.form-container h3 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
+
 .contact-form {
     display: grid;
     row-gap: 1rem;
 }
-.contact-form input, .contact-form textarea {
+
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     border: none;
     outline: none;
@@ -71,7 +83,7 @@ body {
     cursor: pointer;
 }
 
-.contact-form .send-button:hover{
+.contact-form .send-button:hover {
     background: hsla(0, 0%, 40%, 0.8);
     transition: 0.3s all linear;
 }
@@ -85,10 +97,5 @@ body {
     text-align: center;
     font-size: 25px;
     padding-top: 10px;
-}
-
-.details {
-    padding-top: 5vh;
-    margin-left: 50px;
-    font-size: 18px;
+    padding-bottom: 50px;
 }
