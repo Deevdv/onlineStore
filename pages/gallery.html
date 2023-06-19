@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,55 +8,471 @@
     <link rel="stylesheet" href="/css/gallery.css">
     <title>Gallery</title>
 </head>
+
 <body>
     <form>
         <input class="button-back" type="button" value="Back" onclick="history.back()">
     </form>
+    <h2>  Gallery </h2>
 
-<img id="my-img" src="/images/bedroomItems/product-1.jpg" alt="Snow">
-<img id="my-img" src="/images/bedroomItems/product-2.jpg" alt="Snow">
-<img id="my-img" src="/images/bedroomItems/product-3.jpg" alt="Snow">
-<img id="my-img" src="/images/bedroomItems/product-4.jpg" alt="Snow">
-<img id="my-img" src="/images/bedroomItems/product-5.jpg" alt="Snow">
-<img id="my-img" src="/images/bedroomItems/product-6.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-7.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-8.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-9.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-10.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-11.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-12.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-13.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-14.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-15.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-16.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-17.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-18.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-19.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-20.jpg" alt="Snow">
-<img id="my-img" src="/images/diningItems/product-21.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-22.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-23.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-24.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-25.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-26.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-27.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-28.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-29.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-30.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-31.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-32.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-33.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-34.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-35.jpg" alt="Snow">
-<img id="my-img" src="/images/gardenItems/product-36.jpg" alt="Snow">
-<!-- The Modal -->
-<div id="my-modal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
+    <div class="row">
+        <div class="column">
+            <img id="img-style" src="/images/bedroomItems/product-1.jpg" onclick="openModal();currentSlide(1)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/bedroomItems/product-2.jpg" onclick="openModal();currentSlide(2)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/bedroomItems/product-3.jpg" onclick="openModal();currentSlide(3)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/bedroomItems/product-4.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/bedroomItems/product-5.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/bedroomItems/product-6.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-7.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-8.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-9.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-10.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-11.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-12.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-13.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-14.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-15.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-16.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-17.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-18.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-19.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-20.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/diningItems/product-21.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-22.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-23.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-24.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-25.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-26.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-27.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-28.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-29.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-30.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-31.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-32.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-33.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-34.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-35.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img id="img-style" src="/images/gardenItems/product-36.jpg" onclick="openModal();currentSlide(4)"
+                class="hover-shadow cursor">
+        </div>
+    </div>
 
-<script src="/js/gallery.js" defer> </script>
-    
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 36</div>
+                <img src="/images/bedroomItems/product-1.jpg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 36</div>
+                <img src="/images/bedroomItems/product-2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 36</div>
+                <img src="/images/bedroomItems/product-3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 36</div>
+                <img src="/images/bedroomItems/product-4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 36</div>
+                <img src="/images/bedroomItems/product-5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 36</div>
+                <img src="/images/bedroomItems/product-6.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 36</div>
+                <img src="/images/diningItems/product-7.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 36</div>
+                <img src="/images/diningItems/product-8.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 36</div>
+                <img src="/images/diningItems/product-9.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">10 / 36</div>
+                <img src="/images/diningItems/product-10.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">11 / 36</div>
+                <img src="/images/diningItems/product-11.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">12 / 36</div>
+                <img src="/images/diningItems/product-12.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">13 / 36</div>
+                <img src="/images/diningItems/product-13.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">14 / 36</div>
+                <img src="/images/diningItems/product-14.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">15 / 36</div>
+                <img src="/images/diningItems/product-15.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">16 / 36</div>
+                <img src="/images/diningItems/product-16.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">17 / 36</div>
+                <img src="/images/diningItems/product-17.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">18 / 36</div>
+                <img src="/images/diningItems/product-18.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">19 / 36</div>
+                <img src="/images/diningItems/product-19.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">20 / 36</div>
+                <img src="/images/diningItems/product-20.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">21 / 36</div>
+                <img src="/images/diningItems/product-21.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">22 / 36</div>
+                <img src="/images/gardenItems/product-22.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">23 / 36</div>
+                <img src="/images/gardenItems/product-23.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">24 / 36</div>
+                <img src="/images/gardenItems/product-24.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">25 / 36</div>
+                <img src="/images/gardenItems/product-25.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">26 / 36</div>
+                <img src="/images/gardenItems/product-26.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">27 / 36</div>
+                <img src="/images/gardenItems/product-27.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">28 / 36</div>
+                <img src="/images/gardenItems/product-28.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">29 / 36</div>
+                <img src="/images/gardenItems/product-29.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">30 / 36</div>
+                <img src="/images/gardenItems/product-30.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">31 / 36</div>
+                <img src="/images/gardenItems/product-31.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">32 / 36</div>
+                <img src="/images/gardenItems/product-32.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">33 / 36</div>
+                <img src="/images/gardenItems/product-33.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">34 / 36</div>
+                <img src="/images/gardenItems/product-34.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">35 / 36</div>
+                <img src="/images/gardenItems/product-35.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">36 / 36</div>
+                <img src="/images/gardenItems/product-36.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/bedroomItems/product-1.jpg"
+                    onclick="currentSlide(1)" alt="Queen panel bed">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/bedroomItems/product-2.jpg" 
+                    onclick="currentSlide(2)" alt="king panel bed">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/bedroomItems/product-3.jpg" 
+                    onclick="currentSlide(3)" alt="Mouble panel bed">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/bedroomItems/product-4.jpg" 
+                    onclick="currentSlide(4)" alt="twin panel bed">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/bedroomItems/product-5.jpg" 
+                    onclick="currentSlide(5)" alt="king bed">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/bedroomItems/product-6.jpg" 
+                    onclick="currentSlide(6)" alt="king bed">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-7.jpg" 
+                    onclick="currentSlide(7)" alt="outside dining table">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-8.jpg" 
+                    onclick="currentSlide(8)" alt="table with comfort couches">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-9.jpg" 
+                    onclick="currentSlide(9)" alt="wooden dining table">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-10.jpg" 
+                    onclick="currentSlide(10)" alt="glass 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-11.jpg" 
+                    onclick="currentSlide(11)" alt="metal glass 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-12.jpg"
+                    onclick="currentSlide(12)" alt="wooden 6 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-13.jpg" 
+                    onclick="currentSlide(13)" alt="8 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-14.jpg" 
+                    onclick="currentSlide(14)" alt="classic 6 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-15.jpg" 
+                    onclick="currentSlide(15)" alt="simple 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-16.jpg" 
+                    onclick="currentSlide(16)" alt="classic wood 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-17.jpg" 
+                    onclick="currentSlide(17)" alt="modern 6 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-18.jpg" 
+                    onclick="currentSlide(18)" alt="simple wooden 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-19.jpg" 
+                    onclick="currentSlide(19)" alt="round table 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-20.jpg" 
+                    onclick="currentSlide(20)" alt="wooden 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/diningItems/product-21.jpg" 
+                    onclick="currentSlide(21)" alt="colouful 6 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-22.jpg" 
+                    onclick="currentSlide(22)" alt="large 6 seater couch">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-23.jpg" 
+                    onclick="currentSlide(23)" alt="single black seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-24.jpg" 
+                    onclick="currentSlide(24)" alt="outside couches">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-25.jpg" 
+                    onclick="currentSlide(25)" alt="modern glass 4 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-26.jpg" 
+                    onclick="currentSlide(26)" alt="single woven style seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-27.jpg" 
+                    onclick="currentSlide(27)" alt="large 8 seater outside set">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-28.jpg" 
+                    onclick="currentSlide(28)" alt="woven 6 seater with table">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-29.jpg" 
+                    onclick="currentSlide(29)" alt="wooden bench">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-30.jpg" 
+                    onclick="currentSlide(30)" alt="classic metal chairs">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-31.jpg" 
+                    onclick="currentSlide(31)" alt="modern style 5 seater">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-32.jpg" 
+                    onclick="currentSlide(32)" alt="outside cushioned couch">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-33.jpg" 
+                    onclick="currentSlide(33)" alt="woven style 2 seater couch">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-34.jpg" 
+                    onclick="currentSlide(34)" alt="wooden 4 seater with table">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-35.jpg" 
+                    onclick="currentSlide(35)" alt="classic wooden poolside chair">
+            </div>
+            <div class="column">
+                <img id="style-column" class="demo cursor" src="/images/gardenItems/product-36.jpg" 
+                    onclick="currentSlide(36)" alt="metal 2 seater">
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/gallery.js" defer> </script>
+
 </body>
+
 </html>
