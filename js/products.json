@@ -4,7 +4,7 @@
         "sys": { "id": "1" },
         "fields": {
           "title": "queen panel bed",
-          "price": 10.99,
+          "price": 3500,
           "image": { "fields": { "file": { "url": "./images/bedroomItems/product-1.jpg" } } }
         }
       },
@@ -12,15 +12,15 @@
         "sys": { "id": "2" },
         "fields": {
           "title": "king panel bed",
-          "price": 12.99,
+          "price": 4200,
           "image": { "fields": { "file": { "url": "./images/bedroomItems/product-2.jpg" } } }
         }
       },
       {
         "sys": { "id": "3" },
         "fields": {
-          "title": "single panel bed",
-          "price": 12.99,
+          "title": "double panel bed",
+          "price": 2000,
           "image": { "fields": { "file": { "url": "./images/bedroomItems/product-3.jpg" } } }
         }
       },
@@ -28,264 +28,264 @@
         "sys": { "id": "4" },
         "fields": {
           "title": "twin panel bed",
-          "price": 22.99,
+          "price": 2500,
           "image": { "fields": { "file": { "url": "./images/bedroomItems/product-4.jpg" } } }
         }
       },
       {
         "sys": { "id": "5" },
         "fields": {
-          "title": "fridge",
-          "price": 88.99,
+          "title": "king bed",
+          "price": 4255,
           "image": { "fields": { "file": { "url": "./images/bedroomItems/product-5.jpg" } } }
         }
       },
       {
         "sys": { "id": "6" },
         "fields": {
-          "title": "dresser",
-          "price": 32.99,
+          "title": "double bed",
+          "price": 2100,
           "image": { "fields": { "file": { "url": "./images/bedroomItems/product-6.jpg" } } }
         }
       },
       {
         "sys": { "id": "7" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
+          "title": "outside dining table",
+          "price": 1500,
           "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
         }
       },
       {
         "sys": { "id": "8" },
         "fields": {
-          "title": "table",
-          "price": 33.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "table with comfort couches",
+          "price": 3500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-8.jpg" } } }
         }
       },
       {
         "sys": { "id": "9" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "wooden dining table",
+          "price": 1800,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-9.jpg" } } }
         }
       },
       {
         "sys": { "id": "10" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "glass 4 seater",
+          "price": 2200,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-10.jpg" } } }
         }
       },
       {
         "sys": { "id": "11" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "metal glass 4 seater",
+          "price": 3500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-11.jpg" } } }
         }
       },
       {
         "sys": { "id": "12" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "wooden 6 seater",
+          "price": 3000,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-12.jpg" } } }
         }
       },
       {
         "sys": { "id": "13" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "8 seater",
+          "price": 7500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-13.jpg" } } }
         }
       },
       {
         "sys": { "id": "14" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "classic 6 seater",
+          "price": 5500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-14.jpg" } } }
         }
       },
       {
         "sys": { "id": "15" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "simple 4 seater",
+          "price": 3500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-15.jpg" } } }
         }
       },
       {
         "sys": { "id": "16" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "classic wood 4 seater",
+          "price": 1500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-16.jpg" } } }
         }
       },
       {
         "sys": { "id": "17" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "modern 6 seater",
+          "price": 3800,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-17.jpg" } } }
         }
       },
       {
         "sys": { "id": "18" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "simple wooden 4 seater",
+          "price": 1000,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-18.jpg" } } }
         }
       },
       {
         "sys": { "id": "19" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "round table 4 seater",
+          "price": 2500,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-19.jpg" } } }
         }
       },
       {
         "sys": { "id": "20" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "wooden 4 seater",
+          "price": 1900,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-20.jpg" } } }
         }
       },
       {
         "sys": { "id": "21" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "colouful 6 seater",
+          "price": 4200,
+          "image": { "fields": { "file": { "url": "./images/diningItems/product-21.jpg" } } }
         }
       },
       {
         "sys": { "id": "22" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "large 6 seater couch",
+          "price": 5000,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-22.jpg" } } }
         }
       },
       {
         "sys": { "id": "23" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "single black seater",
+          "price": 800,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-23.jpg" } } }
         }
       },
       {
         "sys": { "id": "24" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "outside couches",
+          "price": 4200,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-24.jpg" } } }
         }
       },
       {
         "sys": { "id": "25" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "modern glass 4 seater",
+          "price": 3500,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-25.jpg" } } }
         }
       },
       {
         "sys": { "id": "26" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "single woven style seater",
+          "price": 450,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-26.jpg" } } }
         }
       },
       {
         "sys": { "id": "27" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "large 8 seater outside set",
+          "price": 6000,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-27.jpg" } } }
         }
       },
       {
         "sys": { "id": "28" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "woven 6 seater with table",
+          "price": 5000,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-28.jpg" } } }
         }
       },
       {
         "sys": { "id": "29" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "wooden bench",
+          "price": 400,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-29.jpg" } } }
         }
       },
       {
         "sys": { "id": "30" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "classic metal chairs",
+          "price": 1200,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-30.jpg" } } }
         }
       },
       {
         "sys": { "id": "31" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "modern style 5 seater",
+          "price": 3600,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-31.jpg" } } }
         }
       },
       {
         "sys": { "id": "32" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "outside cushioned couch",
+          "price": 1200,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-32.jpg" } } }
         }
       },
       {
         "sys": { "id": "33" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "woven style 2 seater couch",
+          "price": 999,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-33.jpg" } } }
         }
       },
       {
         "sys": { "id": "34" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "wooden 4 seater with table",
+          "price": 2300,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-34.jpg" } } }
         }
       },
       {
         "sys": { "id": "35" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "classic wooden poolside chair",
+          "price": 900,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-35.jpg" } } }
         }
       },
       {
         "sys": { "id": "36" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/diningItems/product-7.jpg" } } }
+          "title": "metal 2 seater",
+          "price": 1800,
+          "image": { "fields": { "file": { "url": "./images/gardenItems/product-36.jpg" } } }
         }
       }
     ]

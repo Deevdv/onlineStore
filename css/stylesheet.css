@@ -25,6 +25,13 @@ body {
     height: 100px;
 }
 
+.arrivals {
+    
+    font-size: 45px;
+    align-items: center;
+    background-color: #bebbbb;
+}
+
 /* Navbar */
 
 /* The sidebar menu */
@@ -142,6 +149,7 @@ a {
     text-decoration: none !important;
     color: #111;
 }
+
 .hero {
     min-height: calc(100vh - 60px);
     background: url("https://th.bing.com/th/id/R.014ea13d6beb388bff8f7663d3d53c24?rik=6rLXe7R8oZtbVw&riu=http%3a%2f%2fwww.hauteresidence.com%2fwp-content%2fuploads%2f2015%2f03%2fbw6.jpg&ehk=3elnGIzWJsQtfmYZNBo%2fTX%2fmSm0giNpndqz6sc8yqnc%3d&risl=&pid=ImgRaw&r=0") center/cover no-repeat;
@@ -201,7 +209,7 @@ a {
     margin: 0 auto;
     max-width: 1170px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
 }
